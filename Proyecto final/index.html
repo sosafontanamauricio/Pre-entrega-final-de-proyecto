@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Ganga digital</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+<h1>La Ganga digital</h1>
+<img src="logo y fondos/Logo La Ganga digital.png" alt="Logo proyecto La Ganga">
+    </header>
+   
+    <nav>
+<ul class="nav-list">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#productos">Productos</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+</ul>
+    </nav>
+    <main>
+<section id="inicio">
+    <h2>Estrategia de publicidad</h2>
+    <div>
+    <img src="logo y fondos/Imagen representativa.png" alt="Gráfico conceptual de marketing digital con una flecha ascendente, iconos de redes sociales y un embudo de conversión" width="400">
+    <p>Nuestra visión para el crecimiento de tu marca.</p>
+    </div>
+
+    <div>
+        <video src="video/video pagina.mp4"
+    width="640"
+    height="360"
+    controls>
+
+    <track
+    kind="captions"
+    src="subtitulos/español.vtt"
+    srclang="es"
+    label="Español"> </video>
+
+<p><strong>Descripción:</strong>Video explicativo de 60 segundos sobre la optimización de campañas publicitarias. Activa los subtítulos para seguir el texto.</p>
+    </div>
+    </section>
+
+<section id="contacto">
+    <h2>Contáctanos para tu Campaña de Publicidad</h2>
+    <p>Envíanos un mensaje y comencemos a impulsar tu marca</p>
+
+    <form action="https://formspree.io/f/xnnbozye" method="post">
+        <div>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+        </div>
+        <button type="submit">Enviar mensaje</button>
+    </form>
+</section>
+
+<section id="mensajes-recibidos">
+    <h2>Reportes de mensajes enviados</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">Mensajes recibidos (Últimos 5)</th>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Mensaje corto</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Carlos Soto</td>
+                <td>carlos@web.net</td>
+                <td>Mi web no aparece en google</td>
+                <td>Pendiente</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Ana Garcia</td>
+                <td>ana.g@ejemplo.com</td>
+                <td>Quiero presupuesto para SEO</td>
+                <td>Respondido</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Laura Gómez</td>
+                <td>l.gomez@empresa.com</td>
+                <td>Solicito una reunión de diagnóstico</td>
+                <td>Pendiente</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center; background-color: #fa0202; color: white; font-weight: bold;">¡ATENCIÓN! 2 Mensajes Pendientes de Revisión</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Roberto Díaz</td>
+                <td>robertod@gmail.com</td>
+                <td>¿Cuánto cuesta un auncio de TikTok?</td>
+                <td>Ignorado</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section id="productos" class="productos">
+    <h2>Nuestros servicios de publicidad digital</h2>
+
+    <article class="tarjeta-producto">
+        <img src="logo y fondos/img tarjeta productos/lupa SEO.png" alt="Gráfico de optmización SEO y una lupa">
+        <h3>Optimización SEO avanzada</h3>
+        <p>Posicionamos tu marca en los primeros lugares de Google y aumentamos tu tráfico orgánico de forma sostenible</p>
+        <div class="precio-carrito">
+            <span class="precio">$800 / Mes</span>
+            <button class="btn-carrito">
+                <i class="fas fa-cart-plus"></i> Agregar al carrito
+            </button>
+        </div>
+    </article>
+    <article class="tarjeta-producto">
+        <img src="logo y fondos/img tarjeta productos/social media.png" alt="Iconos de redes socuales flotando sobre un teléfono móvil">
+        <h3>Grestión estratégica de redes</h3>
+        <p>Creamos contenido de alto impacto en Instagram y Tik Tok para engagement real y crecimiento acelerado de seguidores</p>
+        <div class="precio-carrito">
+            <span class="precio">$550 / Mes</span>
+            <button class="btn-carrito">
+                <i class="fas fa-cart-plus"></i> Agregar al carrito
+            </button>
+        </div>
+    </article>
+    <article class="tarjeta-producto">
+        <img src="logo y fondos/img tarjeta productos/ads campaña.png" alt="Tablero de anuncios digitales con métrica y flechas ascendentes">
+        <h3>Campañas de Google Ads</h3>
+        <p>Diseñamos y optimizamos capañas de publicidad paga para maximizar tu ROI (Retorno de la inversion) y conversiones</p>
+        <div class="precio-carrito">
+            <span class="precio">$1200 / Mes</span>
+            <button class="btn-carrito">
+                <i class="fas fa-cart-plus"></i> Agregar al carrito
+            </button>
+        </div>
+    </article>
+</section>
+<section class="reseñas">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <section class="card">
+        <i class="fas fa-quote-left"></i>
+        <p>"El equipo de La Ganga Digital superó mis expectativas. Mi tráfico orgánico creció un 30% en el primer trimestre. ¡Servicio de SEO de primera!</p>
+        <p class="nombre-cliente">- María F. , Propietaria de tienda online</p>
+    </section>
+    <section class="card">
+        <i class="fas fa-quote-left"></i>
+        <p>"Su gestión de redes sociales es excelente. Obtuvimos un crecimiento de seguidores real y tasas de interacción altísimas en Instagram y TikTok."</p>
+        <p class="nombre-cliente">-Javier G., Director de Marketing</p>
+    </section>
+    <section class="card">
+        <i class="fas fa-quote-left"></i>
+        <p>"La campaña de Google Ads fue un éxito total. El retorno de la inversión fue el doble de lo esperado. ¡Altamente recomendados para conversiones!"</p>
+        <p class="nombre-cliente">- Laura V., CEO de Startup</p>
+    </section>
+</section>
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+        </div>
+        
+        <p>&copy; 2025 La Ganga Digital</p>
+    </footer>
+    
+</body>
+</html>
