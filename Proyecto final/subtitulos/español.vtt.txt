@@ -1,29 +1,25 @@
 WEBVTT
 
-1
-00:00:00.800 --> 00:00:04.800
-¿Sabías que el 97% de los clientes buscan tu negocio online antes de comprarte?
+00:00:00.000 --> 00:00:08.500
+problemas para atraer clientes de calidad a tu negocio,
+dejar de adivinar cómo crecer.
 
-2
-00:00:04.800 --> 00:00:08.500
-Sin una página web profesional, pierdes esas oportunidades cada día.
+00:00:08.500 --> 00:00:11.800
+Te presentamos a Publífaste.
+Somos tu socio estratégico en publicidad digital.
 
-3
-00:00:09.000 --> 00:00:13.500
-Tu página web trabaja las 24 horas, mostrando tus servicios y facilitando que te contacten.
+00:00:12.400 --> 00:00:17.500
+Nuestras estrategias comprobadas están diseñadas
+para darte más tráfico y lo más importante, más ventas.
 
-4
-00:00:13.500 --> 00:00:17.500
-Es personalizable según tu marca y establece credibilidad digital.
+00:00:18.100 --> 00:00:22.500
+Nos enfocamos en la inversión inteligente y en resultados medibles.
+Con nosotros, tienes un ROI garantizado.
 
-5
-00:00:17.500 --> 00:00:19.500
-Mientras tu competencia avanza, tú te quedas atrás.
+00:00:23.000 --> 00:00:26.500
+Es hora de llevar tu marca al siguiente nivel.
+No esperes más,
 
-6
-00:00:19.500 --> 00:00:22.500
-Deja de depender solo del boca a boca.
-
-7
-00:00:22.500 --> 00:00:26.500
-Consigue tu página web profesional ahora y convierte visitantes en clientes reales.
+00:00:26.500 --> 00:00:33.400
+visita ahora mismo publifast.com
+y comienza a crecer.

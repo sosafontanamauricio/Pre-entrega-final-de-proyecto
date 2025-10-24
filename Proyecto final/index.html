@@ -15,8 +15,10 @@
 </head>
 <body>
     <header>
-<h1>La Ganga digital</h1>
-<img src="logo y fondos/Logo La Ganga digital.png" alt="Logo proyecto La Ganga">
+    <div class="logo-contenedor"> 
+        <img src="logo y fondos/logo publi.png" alt="Logo Publifast">
+        <h1>Publifast</h1>
+    </div> 
     </header>
    
     <nav>
@@ -29,15 +31,47 @@
 </ul>
     </nav>
     <main>
+        
+        <section id="productos" class="productos">
+    <h2>Nuestros servicios de publicidad digital</h2>
+    
+        <article class="tarjeta-producto">
+        <img src="logo y fondos/img tarjeta productos/lupa SEO.png" alt="Gráfico de optmización SEO y una lupa">
+        <h3>Optimización SEO avanzada</h3>
+        <p>Posicionamos tu marca en los primeros lugares de Google y aumentamos tu tráfico orgánico de forma sostenible</p>
+        <div class="precio-carrito">
+            <span class="precio">$800 / Mes</span>
+            <button class="btn-carrito">
+                <i class="fas fa-cart-plus"></i> Agregar al carrito
+            </button>
+        </div>
+    </article>
+    <article class="tarjeta-producto">
+        <img src="logo y fondos/img tarjeta productos/social media.png" alt="Iconos de redes socuales flotando sobre un teléfono móvil">
+        <h3>Grestión estratégica de redes</h3>
+        <p>Creamos contenido de alto impacto en Instagram y Tik Tok para engagement real y crecimiento acelerado de seguidores</p>
+        <div class="precio-carrito">
+            <span class="precio">$550 / Mes</span>
+            <button class="btn-carrito">
+                <i class="fas fa-cart-plus"></i> Agregar al carrito
+            </button>
+        </div>
+    </article>
+    <article class="tarjeta-producto">
+        <img src="logo y fondos/img tarjeta productos/ads campaña.png" alt="Tablero de anuncios digitales con métrica y flechas ascendentes">
+        <h3>Campañas de Google Ads</h3>
+        <p>Diseñamos y optimizamos capañas de publicidad paga para maximizar tu ROI (Retorno de la inversion) y conversiones</p>
+        <div class="precio-carrito">
+            <span class="precio">$1200 / Mes</span>
+            <button class="btn-carrito">
+                <i class="fas fa-cart-plus"></i> Agregar al carrito
+            </button>
+        </div>
+    </article>
+</section>
 <section id="inicio">
-    <h2>Estrategia de publicidad</h2>
-    <div>
-    <img src="logo y fondos/Imagen representativa.png" alt="Gráfico conceptual de marketing digital con una flecha ascendente, iconos de redes sociales y un embudo de conversión" width="400">
-    <p>Nuestra visión para el crecimiento de tu marca.</p>
-    </div>
-
-    <div>
-        <video src="video/video pagina.mp4"
+    <div class="video-contenedor">
+        <video src="video/video-publifast.mp4"
     width="640"
     height="360"
     controls>
@@ -48,30 +82,10 @@
     srclang="es"
     label="Español"> </video>
 
-<p><strong>Descripción:</strong>Video explicativo de 60 segundos sobre la optimización de campañas publicitarias. Activa los subtítulos para seguir el texto.</p>
+<p class="descripcion-video-oculta"><strong>Descripción:</strong>Video explicativo de 60 segundos sobre la optimización de campañas publicitarias. Activa los subtítulos para seguir el texto.</p>
     </div>
     </section>
-
-<section id="contacto">
-    <h2>Contáctanos para tu Campaña de Publicidad</h2>
-    <p>Envíanos un mensaje y comencemos a impulsar tu marca</p>
-
-    <form action="https://formspree.io/f/xnnbozye" method="post">
-        <div>
-            <label for="nombre">Nombre completo:</label>
-            <input type="text" id="nombre" name="nombre" required>
-        </div>
-        <div>
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="mensaje">Tu mensaje:</label>
-            <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
-        </div>
-        <button type="submit">Enviar mensaje</button>
-    </form>
-</section>
+    
 
 <section id="mensajes-recibidos">
     <h2>Reportes de mensajes enviados</h2>
@@ -123,43 +137,7 @@
         </tbody>
     </table>
 </section>
-<section id="productos" class="productos">
-    <h2>Nuestros servicios de publicidad digital</h2>
 
-    <article class="tarjeta-producto">
-        <img src="logo y fondos/img tarjeta productos/lupa SEO.png" alt="Gráfico de optmización SEO y una lupa">
-        <h3>Optimización SEO avanzada</h3>
-        <p>Posicionamos tu marca en los primeros lugares de Google y aumentamos tu tráfico orgánico de forma sostenible</p>
-        <div class="precio-carrito">
-            <span class="precio">$800 / Mes</span>
-            <button class="btn-carrito">
-                <i class="fas fa-cart-plus"></i> Agregar al carrito
-            </button>
-        </div>
-    </article>
-    <article class="tarjeta-producto">
-        <img src="logo y fondos/img tarjeta productos/social media.png" alt="Iconos de redes socuales flotando sobre un teléfono móvil">
-        <h3>Grestión estratégica de redes</h3>
-        <p>Creamos contenido de alto impacto en Instagram y Tik Tok para engagement real y crecimiento acelerado de seguidores</p>
-        <div class="precio-carrito">
-            <span class="precio">$550 / Mes</span>
-            <button class="btn-carrito">
-                <i class="fas fa-cart-plus"></i> Agregar al carrito
-            </button>
-        </div>
-    </article>
-    <article class="tarjeta-producto">
-        <img src="logo y fondos/img tarjeta productos/ads campaña.png" alt="Tablero de anuncios digitales con métrica y flechas ascendentes">
-        <h3>Campañas de Google Ads</h3>
-        <p>Diseñamos y optimizamos capañas de publicidad paga para maximizar tu ROI (Retorno de la inversion) y conversiones</p>
-        <div class="precio-carrito">
-            <span class="precio">$1200 / Mes</span>
-            <button class="btn-carrito">
-                <i class="fas fa-cart-plus"></i> Agregar al carrito
-            </button>
-        </div>
-    </article>
-</section>
 <section class="reseñas">
     <h2>Lo que dicen nuestros clientes</h2>
     <section class="card">
@@ -186,8 +164,27 @@
             <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
             <a href="#" target="_blank" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
         </div>
-        
-        <p>&copy; 2025 La Ganga Digital</p>
+        <section id="contacto">
+    <h2>Contáctanos para tu Campaña de Publicidad</h2>
+    <p>Envíanos un mensaje y comencemos a impulsar tu marca</p>
+
+    <form action="https://formspree.io/f/xnnbozye" method="post">
+        <div>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+        </div>
+        <button type="submit">Enviar mensaje</button>
+    </form>
+</section>
+        <p>&copy; 2025 Publifast</p>
     </footer>
     
 </body>

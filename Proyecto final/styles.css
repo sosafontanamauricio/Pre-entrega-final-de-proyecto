@@ -6,7 +6,7 @@ body {
     background-color: #ffffff;
 }
 header {
-    background-color: #0077b6;
+    background-image: linear-gradient(to bottom, #6A0DAD 0%, #FFFFFF 100%);
     color: white;
     padding: 15px 30px;
     display: flex;
@@ -14,9 +14,14 @@ header {
     justify-content: space-between;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.logo-contenedor {
+    display: flex; 
+    align-items: center; 
+    gap: 2px; 
+}
 header h1 {
-    font-size: 2.2em;
-    margin: 0;
+    font-size: 1.6em;
+    margin-top: 20px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -24,7 +29,17 @@ header img {
     border-radius: 50%;
     width: 150px; 
     height: auto;
-    margin: 10px 0;
+    margin: 10px 50;
+}
+.video-contenedor {
+    /* Centra los elementos en línea o bloques con ancho definido */
+    text-align: center; 
+}
+#inicio {
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    padding: 20px 0; /* Agrega un poco de espacio */
 }
 footer {
     background-color: #202a38;
@@ -138,6 +153,10 @@ footer {
     gap: 20px;
     padding: 40px 20px;
 }
+.productos h2 {
+    width: 100%; /* Fuerza al título a ocupar todo el ancho */
+    text-align: center; /* Centra el texto del título */
+}
 .tarjeta-producto {
     min-width: 280px;
     flex-basis: calc(33.33% - 20px);
@@ -147,7 +166,7 @@ footer {
     text-align: center;
 }
 .tarjeta-producto img {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
 }
 nav {
@@ -179,6 +198,8 @@ nav {
     gap: 30px;
     padding: 60px 40px;
     text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .reseñas h2 {
     grid-column: 1 / -1;
@@ -207,6 +228,9 @@ nav {
     font-weight: bold;
     margin-top: 15px;
     color: #555;
+}
+#mensajes-recibidos {
+    display: none; /* Esto oculta la sección completamente de la vista */
 }
 @media (max-width: 768px) {
     .reseñas {
